@@ -1,0 +1,49 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow: hidden; /* Evita que las imágenes se desplacen horizontalmente */
+  }
+  
+  .rain {
+    position: relative;
+    height: 100%;
+    background-color: #000; /* Color de fondo */
+  }
+  
+  .drop {
+    position: absolute;
+    animation: fall 2s linear infinite; /* Define la animación */
+  }
+  
+  @keyframes fall {
+    0% {
+      transform: translateY(-50px) rotate(0deg); /* Inicia la animación desde arriba */
+    }
+    100% {
+      transform: translateY(100vh) rotate(360deg); /* Termina la animación en la parte inferior de la pantalla */
+    }
+  }
+  /* Estilos para la animación de lluvia de imágenes */
+.rain-container {
+    position: fixed; /* Fija el contenedor en la ventana del navegador */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* Evita que las imágenes afecten a los eventos del ratón */
+    z-index: -1; /* Coloca el contenedor detrás de todo */
+}
+
+.rain-drop {
+    position: absolute; /* Posiciona las imágenes de forma absoluta dentro del contenedor */
+    animation: fall 5s linear infinite; /* Aplica la animación de caída */
+}
+
+@keyframes fall {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(100%);
+    }
+}

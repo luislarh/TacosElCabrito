@@ -1,0 +1,20 @@
+/* Estilos personalizados para la página Nosotros */
+
+/* Estilo para las cards */
+.card-custom {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+/* Cambia la transformación de la card al hacer hover */
+.card-custom:hover {
+    transform: translateY(10px);
+}
+
+/* Estilo para el texto del pie de página */
+.footer .font-weight-bold {
+    font-weight: bold;
+}
+/* Estilos personalizados para la página Nosotros */
+
+

@@ -1,0 +1,466 @@
+/* Define un fondo naranja oscuro */
+.bg-orange-200 {
+  background-color: #46464b; /* Color naranja oscuro #f8ad63 */
+}
+
+/* Define un fondo naranja claro */
+.bg-orange-400 {
+  background-color: #fd7e14; /* Color naranja #fd7e14 */
+}
+
+/* Define otro tono de fondo naranja */
+.bg-orange-300 {
+  background-color: #fda055; /* Color naranja #fda055 */
+}
+
+/* Define un fondo verde */
+.bg-green-500 {
+  background-color: #198754; /* Color verde #198754 */
+}
+
+/* Define un fondo naranja intenso */
+.bg-orange-800 {
+  background-color: #d65108; /* Color naranja intenso #d65108 */
+}
+
+/* Define un fondo azul oscuro */
+.bg-blue-800 {
+  background-color: #0d6efd !important; /* Color azul oscuro #0d6efd */
+}
+
+/* Define un fondo azul más oscuro */
+.bg-blue-900 {
+  background-color: #0a58ca !important; /* Color azul más oscuro #0a58ca */
+}
+
+/* Define un color de texto verde */
+.bg-green-800 {
+  color: #2ecc9f; /* Color de texto verde #2ecc9f */
+}
+
+/* Navbar */
+
+/* Define el tamaño del logo */
+.logo {
+  width: 100px; /* Tamaño del logo */
+  height: auto; /* Altura automática para mantener la proporción */
+}
+
+/* Ajusta el tamaño del logo y lo centra */
+.logo {
+  width: 150px; /* Ajusta el tamaño del logo según sea necesario */
+  display: block; /* Hace que el logo se centre */
+  margin: 0 auto; /* Centra el logo horizontalmente */
+}
+
+/* Estilos para la tarjeta naranja */
+.card-orange {
+  background-color: #fd7e14; /* Color naranja */
+  border-radius: 15px; /* Bordes redondeados */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+  transition: transform 0.3s ease; /* Transición */
+}
+
+.card-orange .card-header {
+  text-align: center; /* Alineación del encabezado al centro */
+}
+
+.card-orange .card-body {
+  padding: 30px; /* Espaciado interno */
+}
+
+.card-orange:hover {
+  transform: scale(1.4); /* Escalado al pasar el ratón */
+}
+
+/* Define un color de fondo más claro para los inputs */
+.form-control-light {
+  background-color: #ffffff; /* Cambiar el color de fondo de los inputs */
+}
+
+/* Define el ancho de la tarjeta naranja */
+.card-orange-lg {
+  width: 400px; /* Ajustar el ancho de la tarjeta según sea necesario */
+}
+
+/* Define un color de fondo primario para la página */
+.bg-primary {
+  background-color: #6c757d; /* Cambiar el color de fondo de la página */
+}
+
+/* Estilo personalizado para el checkbox */
+.custom-checkbox .form-check-input[type="checkbox"] {
+  background-color: white; /* Color de fondo blanco */
+  border-color: #075eb4; /* Color del borde */
+  /* Opcional: ajusta el tamaño del checkbox según sea necesario */
+  width: 20px;
+  height: 20px;
+}
+/* Estilo para el checkbox cuando está activo (checked) */
+.custom-checkbox .form-check-input[type="checkbox"]:checked {
+  background-color: #0d6efd; /* Color azul cuando está activo */
+  border-color: #0d6efd; /* Color del borde cuando está activo */
+}
+
+/* Estilo para los inputs cuando están enfocados */
+.form-control-light:focus {
+  /* No necesitas establecer el fondo transparente aquí */
+  color: rgb(0, 0, 0); /* Mantener el color del texto en blanco cuando el input está enfocado */
+}
+
+/* Estilos para la clase de color verde */
+/* Estilos para la clase de color verde */
+.card-green {
+  background-color: #28a745; /* Cambiar a verde */
+  border-radius: 15px; /* Bordes redondeados */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+  transition: transform 0.3s ease; /* Transición */
+}
+
+.card-green:hover {
+  transform: scale(1.4); /* Escalado al pasar el ratón */
+}
+/* Estilos personalizados para la barra de navegación */
+.bg-custom-primary {
+  background-color: #e6341c; /* Color de fondo primario personalizado */
+}
+
+.navbar-brand .logo {
+  width: 70px; /* Tamaño del logo */
+}
+
+.navbar-brand .brand-text {
+  font-size: 2.8rem; /* Tamaño del texto del nombre de la marca */
+}
+
+.custom-btn {
+  padding: 0.5rem 1.5rem; /* Espaciado interno de los botones */
+}
+
+/* Estilos personalizados para los botones de la barra de navegación */
+.btn-custom {
+  background-color: #FFA500; /* Color de fondo personalizado para los botones */
+  border-color: #FFA500; /* Color del borde personalizado para los botones */
+  color: #fff; /* Color del texto */
+}
+
+.btn-custom:hover {
+  background-color: #FFD700; /* Color de fondo personalizado al pasar el ratón */
+  border-color: #FFD700; /* Color del borde personalizado al pasar el ratón */
+}
+
+/* Otros estilos personalizados */
+.brand-text {
+  font-weight: bold; /* Peso de la fuente para el texto del nombre de la marca */
+}
+/* Estilo para los enlaces de navegación al pasar el ratón */
+.navbar-nav .nav-link:hover {
+  font-weight: bold; /* Letra en negrita */
+  color: #fff; /* Color blanco */
+}
+
+/* Otros estilos personalizados */
+.brand-text {
+  font-weight: bold; /* Peso de la fuente para el texto del nombre de la marca */
+}
+.nav-link-custom {
+  font-size: 30px; /* Tamaño de fuente personalizado */
+}
+.btn-custom-red {
+  background-color: #f0b000; /* Cambia el color de fondo a rojo */
+  border-color: #ffffff; /* Cambia el color del borde a rojo */
+  color: #fff; /* Cambia el color del texto a blanco */
+}
+
+.btn-custom-red:hover {
+  background-color: #fbff0b; /* Cambia el color de fondo al pasar el ratón */
+  border-color: #816405; /* Cambia el color del borde al pasar el ratón */
+}
+
+/* Estilos para el carousel */
+.carousel {
+  margin-top: 20px; /* Espacio superior */
+  margin-bottom: 20px; /* Espacio inferior */
+}
+
+.carousel-inner {
+  border-radius: 10px; /* Bordes redondeados */
+  overflow: hidden; /* Oculta el desbordamiento */
+}
+
+.carousel-item {
+  text-align: center; /* Centra el contenido del carousel */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%; /* Ancho de los controles */
+  border-radius: 50%; /* Bordes redondeados */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 30px; /* Ancho del ícono */
+  height: 30px; /* Altura del ícono */
+  background-size: 100%, 100%; /* Tamaño del ícono */
+  background-repeat: no-repeat; /* No se repite el ícono */
+  background-position: center; /* Posición del ícono */
+  border-radius: 50%; /* Bordes redondeados */
+  border: 1px solid #ddd; /* Borde del ícono */
+}
+
+.carousel-control-prev {
+  margin-left: -25px; /* Margen izquierdo del control previo */
+}
+
+.carousel-control-next {
+  margin-right: -25px; /* Margen derecho del control siguiente */
+}
+/* Estilos para el carrusel */
+.carousel {
+  width: 60%; /* Ancho del carrusel */
+  margin: auto; /* Centrado horizontal */
+  margin-top: 50px; /* Espacio en la parte superior */
+}
+
+.carousel-inner img {
+  height: 300px; /* Altura de las imágenes del carrusel */
+  object-fit: cover; /* Ajusta las imágenes al tamaño del contenedor */
+}
+
+/* Estilos para los botones de cierre de sesión */
+.btn-custom-red {
+  background-color: #FF5733; /* Color de fondo personalizado para los botones */
+  border-color: #FF5733; /* Color del borde personalizado para los botones */
+  color: #fff; /* Color del texto */
+}
+
+.btn-custom-red:hover {
+  background-color: #FF8C66; /* Color de fondo personalizado al pasar el ratón */
+  border-color: #FF8C66; /* Color del borde personalizado al pasar el ratón */
+}
+
+
+
+
+/* Estilos personalizados */
+
+/* Agrega una animación para desplazarse hacia la derecha */
+/* Estilo para la animación de desplazamiento hacia la derecha */
+.card-body#historia.expandir {
+  animation: slideInRight 0.5s forwards;
+  transform-origin: right;
+}
+
+@keyframes slideInRight {
+  from {
+      transform: translateX(100%);
+  }
+  to {
+      transform: translateX(0);
+  }
+}
+
+/* Estilo para la animación de expansión de la card */
+.card-body#card2.collapse.show {
+  animation: expandirCard 0.5s forwards;
+}
+
+@keyframes expandirCard {
+  from {
+      height: 0;
+  }
+  to {
+      height: auto;
+  }
+}
+
+/* Estilo para las cards */
+.card {
+  border: 1px solid #ddd; /* Borde delgada */
+  border-radius: 8px; /* Bordes redondeados */
+  margin-bottom: 20px; /* Espacio entre las cards */
+}
+
+/* Estilo para las imágenes en las cards */
+.card-img-top {
+  border-top-left-radius: 8px; /* Bordes redondeados solo en la esquina superior izquierda */
+  border-top-right-radius: 8px; /* Bordes redondeados solo en la esquina superior derecha */
+  object-fit: cover; /* Ajustar la imagen al tamaño del contenedor */
+}
+
+/* Estilo para el cuerpo de la card */
+.card-body {
+  padding: 20px; /* Espaciado interno */
+}
+
+/* Estilo para el botón */
+.card-btn {
+  background-color: #007bff; /* Color de fondo */
+  color: #fff; /* Color del texto */
+  border: none; /* Sin borde */
+  border-radius: 4px; /* Bordes redondeados */
+  padding: 8px 16px; /* Espaciado interno */
+  cursor: pointer; /* Cambiar el cursor al pasar por encima */
+  transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+}
+
+.card-btn:hover {
+  background-color: #0056b3; /* Cambiar el color de fondo al pasar por encima */
+}
+
+/* Alinear las cards de imagen al anchor del carrusel */
+.carousel-container {
+  display: flex;
+  justify-content: center;
+}
+/* Estilo para la card */
+.card {
+  border: 1px solid #ddd; /* Borde delgada */
+  border-radius: 8px; /* Bordes redondeados */
+  margin-bottom: 20px; /* Espacio entre las cards */
+}
+
+/* Estilo para el cuerpo de la card */
+.card-body {
+  padding: 20px; /* Espaciado interno */
+  cursor: pointer; /* Cambiar el cursor al pasar por encima */
+}
+
+/* Estilo para el título de la card */
+.card-title {
+  font-size: 1.25rem; /* Tamaño del texto del título */
+  margin-bottom: 10px; /* Espacio inferior */
+}
+
+/* Estilo para el texto de la card */
+.card-text {
+  margin-bottom: 0; /* Elimina el espacio inferior */
+}
+/* Estilo para las cards de imagen */
+.card-img-container {
+  background-color: #af3315; /* Color verde */
+  padding: 10px; /* Añade un relleno al contenedor */
+  border-radius: 10px; /* Redondea las esquinas */
+}
+
+.text-orange {
+    color: orange; /* Color naranja */
+}
+
+.bg-gray {
+    background-color: rgba(216, 183, 0, 0.431); /* Color gris */
+}
+.card-title{
+  background-color: #f8f8f8;
+
+  
+}.bg-orange {
+  background-color: #3b8f65; /* Color naranja */
+}
+
+.text-white {
+  color: white; /* Color blanco */
+}
+
+
+/*footer*/
+.footer {
+  background-color: #343a40; /* Color de fondo del footer */
+  color: white; /* Color del texto */
+}
+
+.footer .container-fluid {
+  padding: 0; /* Eliminar el padding por defecto */
+}
+
+.footer .col-lg-6 {
+  display: flex;
+  align-items: center; /* Alinear verticalmente los elementos */
+  justify-content: center; /* Alinear horizontalmente los elementos */
+}
+
+.footer .col-lg-6 span,
+.footer .col-lg-6 a {
+  font-weight: bold; /* Texto en negritas */
+  animation: fadeIn 1s ease; /* Animación de entrada */
+}
+
+/* Animación de entrada */
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+
+
+
+
+
+
+
+/* styles.css */
+
+/* Estilos para las cards */
+.card {
+  border: none; /* Quita el borde por defecto */
+  transition: transform 0.3s ease; /* Agrega una transición suave al pasar el ratón sobre la card */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Eleva la card ligeramente al pasar el ratón sobre ella */
+}
+
+/* Estilos para los botones de las cards */
+.btn-custom-primary {
+  background-color: #FFC107; /* Color de fondo personalizado */
+  border-color: #FFC107; /* Color del borde personalizado */
+  color: #212529; /* Color del texto personalizado */
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease; /* Agrega una transición suave al cambiar los estilos */
+}
+
+.btn-custom-primary:hover {
+  background-color: #FFA000; /* Cambia el color de fondo al pasar el ratón sobre el botón */
+  border-color: #FFA000; /* Cambia el color del borde al pasar el ratón sobre el botón */
+  color: #212529; /* Cambia el color del texto al pasar el ratón sobre el botón */
+}
+
+
+/* Estilos adicionales para el texto dentro de la card */
+.card-title {
+  margin-bottom: 10px; /* Espaciado inferior */
+  font-size: 18px; /* Tamaño del texto */
+}
+
+.card-text {
+  margin-bottom: 15px; /* Espaciado inferior */
+  font-size: 16px; /* Tamaño del texto */
+}
+/* Estilos para el borde amarillo personalizado */
+.border-custom-primary {
+  border-color: yellow; /* Define el color amarillo */
+}
+
+
+
+
+    /* Definir la animación para el formulario */
+@keyframes bounce {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
+
+/* Aplicar la animación al formulario cuando se envíe */
+.form-container.animate-bounce {
+  animation: bounce 0.5s;
+}
+
+#map {
+	height: 500px;
+	width: 100%;
+}
