@@ -12,6 +12,7 @@
   <link rel="icon" href="{{ asset('img/logo.png') }}" type="image/x-icon">
 
 
+
 </head>
 <title>Nosotros</title>
 
