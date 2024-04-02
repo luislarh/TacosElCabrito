@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
     <!-- Enlazar hojas de estilo de Bootstrap -->
-    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
     <!-- Enlazar Fontawesome -->
     <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet">
     <!-- Estilos personalizados -->
-    <link href="{{ asset('css/styles.css') }}" rel="stylesheet">
+    <link href="/css/styles.css" rel="stylesheet">
     <!-- Estilos para la animación de lluvia de imágenes -->
-    <link href="{{ asset('css/rain.css') }}" rel="stylesheet">
+    <link href="/css/rain.css" rel="stylesheet">
     <link rel="icon" href="{{ asset('img/logo.png') }}" type="image/x-icon">
 
 </head>
