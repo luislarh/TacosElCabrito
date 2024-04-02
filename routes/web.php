@@ -19,7 +19,7 @@ Route::post('/logout', [App\Http\Controllers\Auth\LoginController::class, 'logou
 
 Route::get('/', function () {
     return view('home');
-})->middleware('auth');
+})->middleware('auth')->name('home');
 
 Route::get('/register', [RegisterController::class, 'create'])
     ->middleware('guest')
@@ -43,9 +43,7 @@ Route::get('/admin', [AdminController::class, 'index'])
     ->middleware('auth.admin')
     ->name('admin.index');
 
-    Route::get('/', function () {
-        return view('home');
-    })->name('home');
+   
     
     Route::get('/pdadmin', [ProductController::class, 'index'])->name('pdadmin');
 
