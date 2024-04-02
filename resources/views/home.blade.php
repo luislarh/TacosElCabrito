@@ -13,7 +13,7 @@
     <link href="/css/styles.css" rel="stylesheet">
     <!-- Enlazar el archivo CSS personalizado -->
     <link href="/css/custom.css" rel="stylesheet">
-    <link rel="icon" href="{{ asset('img/logo.png') }}" type="image/x-icon">
+    <link rel="icon" href="img/logo.png"" type="image/x-icon">
 
     <title>Inicio</title>
 
