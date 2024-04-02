@@ -9,7 +9,7 @@
     <!-- Fontawesome Link -->
     <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet">
     <!-- Tu archivo CSS personalizado -->
-    <link href="{{ asset('css/styles.css') }}" rel="stylesheet">
+    <link href="/css/styles.css" rel="stylesheet">
     <link rel="icon" href="{{ asset('img/logo.png') }}" type="image/x-icon">
 </head>
 
