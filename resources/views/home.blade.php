@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
     <!-- Enlazar hojas de estilo de Bootstrap -->
+     <!-- Enlazar hojas de estilo de Bootstrap -->
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
     <!-- Enlazar Fontawesome -->
     <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet">
@@ -13,6 +14,7 @@
     <!-- Enlazar el archivo CSS personalizado -->
     <link href="{{ asset('css/custom.css') }}" rel="stylesheet">
     <link rel="icon" href="{{ asset('img/logo.png') }}" type="image/x-icon">
+
     <title>Inicio</title>
 
 </head>
