@@ -114,5 +114,3 @@ Route::get('/admin/noadmin', function () {
 Route::get('/admin/coadmin', function () {
     return view('admin.coadmin');
 })->name('coadmin');
-
-
