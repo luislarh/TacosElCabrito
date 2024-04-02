@@ -6,7 +6,7 @@
     <title>Inicio</title>
     <!-- Enlazar hojas de estilo de Bootstrap -->
      <!-- Enlazar hojas de estilo de Bootstrap -->
-    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
     <!-- Enlazar Fontawesome -->
     <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet">
     <!-- Enlazar hojas de estilo personalizadas -->
