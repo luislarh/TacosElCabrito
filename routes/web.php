@@ -1,4 +1,7 @@
+<?php
+
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CartController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\ProductController;
@@ -6,36 +9,84 @@ use App\Http\Controllers\MensajesController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\SessionsController;
 
+
+
+
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 
-// Rutas para login y botones logout
+// rutas para login y botones logout
 Route::post('/logout', [App\Http\Controllers\Auth\LoginController::class, 'logout'])->name('logout');
 
-Route::middleware('auth')->group(function () {
+Route::get('/', function () {
+    return view('home');
+})->middleware('auth');
+
+Route::get('/register', [RegisterController::class, 'create'])
+    ->middleware('guest')
+    ->name('register.index');
+
+Route::post('/register', [RegisterController::class, 'store'])
+    ->name('register.store');
+
+Route::get('/login', [SessionsController::class, 'create'])
+    ->middleware('guest')
+    ->name('login.index');
+
+Route::post('/login', [SessionsController::class, 'store'])
+    ->name('login.store');
+
+Route::get('/logout', [SessionsController::class, 'destroy'])
+    ->middleware('auth')
+    ->name('login.destroy');
+
+Route::get('/admin', [AdminController::class, 'index'])
+    ->middleware('auth.admin')
+    ->name('admin.index');
+
     Route::get('/', function () {
         return view('home');
     })->name('home');
-
-    Route::get('/admin', [AdminController::class, 'index'])
-        ->middleware('auth.admin')
-        ->name('admin.index');
-});
-
-Route::middleware('guest')->group(function () {
-    Route::get('/register', [RegisterController::class, 'create'])->name('register.index');
-    Route::post('/register', [RegisterController::class, 'store'])->name('register.store');
-    Route::get('/login', [SessionsController::class, 'create'])->name('login.index');
-    Route::post('/login', [SessionsController::class, 'store'])->name('login.store');
-});
-
-Route::middleware('auth')->group(function () {
-    Route::get('/logout', [SessionsController::class, 'destroy'])->name('login.destroy');
+    
     Route::get('/pdadmin', [ProductController::class, 'index'])->name('pdadmin');
-    Route::post('/mensajes', [MensajesController::class, 'store'])->name('mensajes.store');
-    Route::get('/inicio', [SessionsController::class, 'create'])->name('login');
-});
 
-// Routes para las vistas que llevarán crud
+
+// rutas crud comunicar
+Route::resource('comunicar', 'ComunicarController');
+
+Route::get('/home', [HomeController::class, 'index'])->name('home');
+
+
+Route::post('/mensajes', [MensajesController::class, 'store'])->name('mensajes.store');
+
+
+
+Route::get('/inicio', [SessionsController::class, 'create'])->name('login');
+
+
+Route::get('/products/bebidas', function () {
+    return view('products.bebidas');
+})->name('bebidas');
+
+
+Route::get('/products/consome', function () {
+    return view('products.consome');
+})->name('consome');
+
+
+Route::get('/products/pokilo', function () {
+    return view('products.porkilo');
+})->name('porkilo');
+
+Route::get('/products/promocion', function () {
+    return view('products.promocion');
+})->name('promocion');
+
+
+
+
+
+// Routes para las vistas que llevaran crud
+
 Route::get('/products', function () {
     return view('productos');
 })->name('productos');
@@ -63,3 +114,5 @@ Route::get('/admin/noadmin', function () {
 Route::get('/admin/coadmin', function () {
     return view('admin.coadmin');
 })->name('coadmin');
+
+
